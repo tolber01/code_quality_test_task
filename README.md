@@ -7,12 +7,12 @@
 3. Библиотеки из файла [`requirements-roberta.txt`](https://github.com/hyperskill/hyperstyle-analyze/blob/main/requirements-roberta.txt);
 4. Некоторые дополнительные библиотеки, использованные при анализе: `matplotlib`
 
-Все указанные библиотеки с соответствующими версиями описаны в файле [`requirements.txt`](...) настоящего репозитория.
+Все указанные библиотеки с соответствующими версиями описаны в файле [`requirements.txt`](https://github.com/tolber01/code_quality_test_task/blob/main/requirements.txt) настоящего репозитория.
 
 При извлечении данных активно использовался инструмент `hyperstyle-analyze`, а именно его [fork-версия](https://github.com/tolber01/hyperstyle-analyze) (см. ветку `hyperstyle-analysis-fixes`), в которой были выполнены минорные исправления формата возвращаемых из API Hyperskill данных по решениям.
 
 ## Описание извлеченных данных
-Данные извлекались с использованием скрипта [`scrape_data.py`](...). В качестве источника был выбран Hyperskill. В треке `Python for Beginners` выбраны 4 степа с базовыми задачами на программирование и алгоритмизацию:
+Данные извлекались с использованием скрипта [`scrape_data.py`](https://github.com/tolber01/code_quality_test_task/blob/main/scrape_data.py). В качестве источника был выбран Hyperskill. В треке `Python for Beginners` выбраны 4 степа с базовыми задачами на программирование и алгоритмизацию:
 1. [6818](https://hyperskill.org/learn/step/6818): `A mean of n.` -- задача на использование цикла `for`
 2. [8443](https://hyperskill.org/learn/step/8443): `Coordinates` -- задача на использование условных конструкций (`elif` в частности)
 3. [9480](https://hyperskill.org/learn/step/9480): `Tennis tournament` -- задача на использование вложенных списочных выражений
@@ -38,4 +38,4 @@
 3. `submissions_feedbacks.json` -- файл с извлеченной для каждого решения информацией об ошибках и качестве кода
 
 ## Анализ собранных данных
-См. Jupyter Notebook [`analysis.ipynb`](...) 
+См. Jupyter Notebook [`analysis.ipynb`](https://github.com/tolber01/code_quality_test_task/blob/main/analysis.ipynb) 
